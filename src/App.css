@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+label {
+  font-size: 15px;
+}
+
+li a[aria-current='page'] {
+  background-color: #ee6e73;
+  color: #fff;
+}
+
+.btn {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.card-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 24px;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.edit-form,
+.add-form {
+  max-width: 80%;
+  margin: auto;
+}
